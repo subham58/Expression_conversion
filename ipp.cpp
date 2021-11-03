@@ -6,7 +6,7 @@
 using namespace std;
 int postfixEvaluation(string s)
 {
-    stack<int> st;
+    stack<int> st; // creating a stack
 
     for(int i = 0; i < s.length(); i++)
     {
